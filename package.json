@@ -1,20 +1,22 @@
 {
   "name": "simple-crud-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple CRUD application using Express and MongoDB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["express", "mongodb", "crud", "api"],
+  "author": "Farouk",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.21.2",
     "mongodb": "^6.12.0",
-    "mongoose": "^8.9.5",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.9"
   }
 }
